@@ -1,5 +1,9 @@
 const send = document.querySelector('#send')
+    const { onToggleButton, tg } = useTelegram()
+
 
 send.onclick = () => {
-    const { onToggleButton, tg } = useTelegram()
+    buttonStyle()
+}
+function buttonStyle() {
 }
